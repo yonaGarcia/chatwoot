@@ -1,5 +1,5 @@
 FROM chatwoot:development
-
+RUN gem install overmind
 ENV PNPM_HOME="/root/.local/share/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 
